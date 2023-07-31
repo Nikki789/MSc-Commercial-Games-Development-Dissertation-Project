@@ -1334,3 +1334,348 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.07.31-01.18.30:042][879]LogFileHelpers: InternalPromptForCheckoutAndSave took 837 ms (total: 1.86 sec)
 [2023.07.31-01.18.30:057][879]AssetCheck: New page: Asset Save: Level_0
 [2023.07.31-01.18.30:057][879]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level_0.Level_0
+[2023.07.31-01.19.31:560][354]LogShaderCompilers: Display: ================================================
+[2023.07.31-01.19.31:561][354]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.07.31-01.19.31:561][354]LogShaderCompilers: Display: Total job queries 199, among them cache hits 56 (28.14%)
+[2023.07.31-01.19.31:561][354]LogShaderCompilers: Display: Tracking 143 distinct input hashes that result in 90 distinct outputs (62.94%)
+[2023.07.31-01.19.31:561][354]LogShaderCompilers: Display: RAM used: 0.94 MB (0.00 GB) of 3276.80 MB (3.20 GB) budget. Usage: 0.03%
+[2023.07.31-01.19.31:561][354]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.07.31-01.19.31:561][354]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.07.31-01.19.31:561][354]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.07.31-01.19.31:561][354]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.07.31-01.19.31:561][354]LogShaderCompilers: Display: ================================================
+[2023.07.31-01.19.46:011][543]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2023.07.31-01.19.48:742][543]LogSlate: Window 'Delete Assets' being destroyed
+[2023.07.31-01.19.48:797][543]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/StarterContent/Particles/Materials/M_Burst.M_Burst
+	Asset Type: Material
+[2023.07.31-01.19.49:361][543]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.07.31-01.19.49:396][543]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.07.31-01.19.49:432][543]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.07.31-01.19.53:928][579]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.07.31-01.19.56:222][579]LogSlate: Window 'Delete Assets' being destroyed
+[2023.07.31-01.19.56:272][579]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/StarterContent/Particles/Materials/M_Dust_Particle.M_Dust_Particle
+	Asset Type: Material
+[2023.07.31-01.19.56:878][579]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.07.31-01.19.56:915][579]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2023.07.31-01.19.56:950][579]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.07.31-01.20.00:748][608]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.07.31-01.20.01:899][608]LogSlate: Window 'Delete Assets' being destroyed
+[2023.07.31-01.20.01:948][608]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/StarterContent/Particles/Materials/M_explosion_subUV.M_explosion_subUV
+	Asset Type: Material
+[2023.07.31-01.20.02:503][608]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2023.07.31-01.20.02:539][608]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2023.07.31-01.20.02:575][608]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2023.07.31-01.20.15:848][746]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.31-01.20.15:957][746]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Particles/P_Fire" FILE="../../../../../Dissertation Project/DissertationProject/Content/StarterContent/Particles/P_Fire.uasset" SILENT=true
+[2023.07.31-01.20.15:975][746]LogSavePackage: Moving output files for package: /Game/StarterContent/Particles/P_Fire
+[2023.07.31-01.20.15:976][746]LogSavePackage: Moving '../../../../../Dissertation Project/DissertationProject/Saved/P_Fire112137124FD2AB31A5EA24ABC0B39056.tmp' to '../../../../../Dissertation Project/DissertationProject/Content/StarterContent/Particles/P_Fire.uasset'
+[2023.07.31-01.20.15:980][746]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Effects/Fire" FILE="../../../../../Dissertation Project/DissertationProject/Content/Effects/Fire.uasset" SILENT=true
+[2023.07.31-01.20.16:238][746]LogSavePackage: Moving output files for package: /Game/Effects/Fire
+[2023.07.31-01.20.16:239][746]LogSavePackage: Moving '../../../../../Dissertation Project/DissertationProject/Saved/Fire91ABF78C408563317A16318AB705B32D.tmp' to '../../../../../Dissertation Project/DissertationProject/Content/Effects/Fire.uasset'
+[2023.07.31-01.20.16:240][746]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Effects/M_Fire_SubUV" FILE="../../../../../Dissertation Project/DissertationProject/Content/Effects/M_Fire_SubUV.uasset" SILENT=true
+[2023.07.31-01.20.16:242][746]LogSavePackage: Moving output files for package: /Game/Effects/M_Fire_SubUV
+[2023.07.31-01.20.16:242][746]LogSavePackage: Moving '../../../../../Dissertation Project/DissertationProject/Saved/M_Fire_SubUV5FCF13244917DBB4C3B15087704C6237.tmp' to '../../../../../Dissertation Project/DissertationProject/Content/Effects/M_Fire_SubUV.uasset'
+[2023.07.31-01.20.16:267][746]LogFileHelpers: InternalPromptForCheckoutAndSave took 419 ms (total: 2.28 sec)
+[2023.07.31-01.20.16:316][746]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.07.31-01.20.16:355][746]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.07.31-01.20.16:395][746]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.07.31-01.20.16:447][746]AssetCheck: New page: Asset Save: multiple assets
+[2023.07.31-01.20.16:447][746]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Effects/M_Fire_SubUV.M_Fire_SubUV
+[2023.07.31-01.20.16:447][746]LogContentValidation: Display: Validating /Script/Niagara.NiagaraSystem /Game/Effects/Fire.Fire
+[2023.07.31-01.20.16:447][746]LogContentValidation: Display: Validating /Script/Engine.ParticleSystem /Game/StarterContent/Particles/P_Fire.P_Fire
+[2023.07.31-01.20.20:883][789]LogLinker: Warning: [AssetLog] D:\Dissertation Project\DissertationProject\Content\StarterContent\Particles\P_Explosion.uasset: Failed to load '/Game/StarterContent/Particles/Materials/M_Burst': Can't find file.
+[2023.07.31-01.20.20:883][789]LogLinker: Warning: [AssetLog] D:\Dissertation Project\DissertationProject\Content\StarterContent\Particles\P_Explosion.uasset: VerifyImport: Failed to load package for import object 'Package /Game/StarterContent/Particles/Materials/M_Burst'
+[2023.07.31-01.20.20:883][789]LogLinker: Warning: [AssetLog] D:\Dissertation Project\DissertationProject\Content\StarterContent\Particles\P_Explosion.uasset: Failed to load '/Game/StarterContent/Particles/Materials/M_explosion_subUV': Can't find file.
+[2023.07.31-01.20.20:883][789]LogLinker: Warning: [AssetLog] D:\Dissertation Project\DissertationProject\Content\StarterContent\Particles\P_Explosion.uasset: VerifyImport: Failed to load package for import object 'Package /Game/StarterContent/Particles/Materials/M_explosion_subUV'
+[2023.07.31-01.20.20:919][789]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.31-01.20.21:032][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Particles/P_Explosion" FILE="../../../../../Dissertation Project/DissertationProject/Content/StarterContent/Particles/P_Explosion.uasset" SILENT=true
+[2023.07.31-01.20.21:047][789]LogSavePackage: Moving output files for package: /Game/StarterContent/Particles/P_Explosion
+[2023.07.31-01.20.21:047][789]LogSavePackage: Moving '../../../../../Dissertation Project/DissertationProject/Saved/P_ExplosionDD1A8C9E48AAA87B2B98BDB14C51DF5B.tmp' to '../../../../../Dissertation Project/DissertationProject/Content/StarterContent/Particles/P_Explosion.uasset'
+[2023.07.31-01.20.21:048][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Particles/P_Fire" FILE="../../../../../Dissertation Project/DissertationProject/Content/StarterContent/Particles/P_Fire.uasset" SILENT=true
+[2023.07.31-01.20.21:065][789]LogSavePackage: Moving output files for package: /Game/StarterContent/Particles/P_Fire
+[2023.07.31-01.20.21:066][789]LogSavePackage: Moving '../../../../../Dissertation Project/DissertationProject/Saved/P_Fire119A51B249F0D95F7E5CEB80E8932823.tmp' to '../../../../../Dissertation Project/DissertationProject/Content/StarterContent/Particles/P_Fire.uasset'
+[2023.07.31-01.20.21:068][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Particles/P_Sparks" FILE="../../../../../Dissertation Project/DissertationProject/Content/StarterContent/Particles/P_Sparks.uasset" SILENT=true
+[2023.07.31-01.20.21:078][789]LogSavePackage: Moving output files for package: /Game/StarterContent/Particles/P_Sparks
+[2023.07.31-01.20.21:078][789]LogSavePackage: Moving '../../../../../Dissertation Project/DissertationProject/Saved/P_Sparks7B347AA447A893879BBE71B4164BEFD6.tmp' to '../../../../../Dissertation Project/DissertationProject/Content/StarterContent/Particles/P_Sparks.uasset'
+[2023.07.31-01.20.21:080][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Particles/P_Steam_Lit" FILE="../../../../../Dissertation Project/DissertationProject/Content/StarterContent/Particles/P_Steam_Lit.uasset" SILENT=true
+[2023.07.31-01.20.21:090][789]LogSavePackage: Moving output files for package: /Game/StarterContent/Particles/P_Steam_Lit
+[2023.07.31-01.20.21:091][789]LogSavePackage: Moving '../../../../../Dissertation Project/DissertationProject/Saved/P_Steam_Lit2EB070FC4B843DAA70EA7BA1570A12F5.tmp' to '../../../../../Dissertation Project/DissertationProject/Content/StarterContent/Particles/P_Steam_Lit.uasset'
+[2023.07.31-01.20.21:093][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Particles/P_Smoke" FILE="../../../../../Dissertation Project/DissertationProject/Content/StarterContent/Particles/P_Smoke.uasset" SILENT=true
+[2023.07.31-01.20.21:099][789]LogSavePackage: Moving output files for package: /Game/StarterContent/Particles/P_Smoke
+[2023.07.31-01.20.21:099][789]LogSavePackage: Moving '../../../../../Dissertation Project/DissertationProject/Saved/P_Smoke35621C694F809F3E65FEE5BDC39430C0.tmp' to '../../../../../Dissertation Project/DissertationProject/Content/StarterContent/Particles/P_Smoke.uasset'
+[2023.07.31-01.20.21:100][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Effects/Fire" FILE="../../../../../Dissertation Project/DissertationProject/Content/Effects/Fire.uasset" SILENT=true
+[2023.07.31-01.20.21:355][789]LogSavePackage: Moving output files for package: /Game/Effects/Fire
+[2023.07.31-01.20.21:355][789]LogSavePackage: Moving '../../../../../Dissertation Project/DissertationProject/Saved/Fire706A88024951321C9183A9B45FFDC34F.tmp' to '../../../../../Dissertation Project/DissertationProject/Content/Effects/Fire.uasset'
+[2023.07.31-01.20.21:356][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Effects/M_smoke_subUV" FILE="../../../../../Dissertation Project/DissertationProject/Content/Effects/M_smoke_subUV.uasset" SILENT=true
+[2023.07.31-01.20.21:358][789]LogSavePackage: Moving output files for package: /Game/Effects/M_smoke_subUV
+[2023.07.31-01.20.21:358][789]LogSavePackage: Moving '../../../../../Dissertation Project/DissertationProject/Saved/M_smoke_subUVD75AD71B4857BCC072963CBA3538B119.tmp' to '../../../../../Dissertation Project/DissertationProject/Content/Effects/M_smoke_subUV.uasset'
+[2023.07.31-01.20.21:384][789]LogFileHelpers: InternalPromptForCheckoutAndSave took 465 ms (total: 2.74 sec)
+[2023.07.31-01.20.21:433][789]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.07.31-01.20.21:471][789]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.07.31-01.20.21:508][789]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.07.31-01.20.21:562][789]AssetCheck: New page: Asset Save: multiple assets
+[2023.07.31-01.20.21:562][789]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Effects/M_smoke_subUV.M_smoke_subUV
+[2023.07.31-01.20.21:562][789]LogContentValidation: Display: Validating /Script/Niagara.NiagaraSystem /Game/Effects/Fire.Fire
+[2023.07.31-01.20.21:562][789]LogContentValidation: Display: Validating /Script/Engine.ParticleSystem /Game/StarterContent/Particles/P_Explosion.P_Explosion
+[2023.07.31-01.20.21:562][789]LogContentValidation: Display: Validating /Script/Engine.ParticleSystem /Game/StarterContent/Particles/P_Fire.P_Fire
+[2023.07.31-01.20.21:562][789]LogContentValidation: Display: Validating /Script/Engine.ParticleSystem /Game/StarterContent/Particles/P_Smoke.P_Smoke
+[2023.07.31-01.20.21:562][789]LogContentValidation: Display: Validating /Script/Engine.ParticleSystem /Game/StarterContent/Particles/P_Steam_Lit.P_Steam_Lit
+[2023.07.31-01.20.21:562][789]LogContentValidation: Display: Validating /Script/Engine.ParticleSystem /Game/StarterContent/Particles/P_Sparks.P_Sparks
+[2023.07.31-01.20.28:476][850]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.07.31-01.20.35:344][850]LogSlate: Window 'Delete Assets' being destroyed
+[2023.07.31-01.20.46:569][971]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.31-01.20.46:674][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Particles/P_Fire" FILE="../../../../../Dissertation Project/DissertationProject/Content/StarterContent/Particles/P_Fire.uasset" SILENT=true
+[2023.07.31-01.20.46:691][971]LogSavePackage: Moving output files for package: /Game/StarterContent/Particles/P_Fire
+[2023.07.31-01.20.46:691][971]LogSavePackage: Moving '../../../../../Dissertation Project/DissertationProject/Saved/P_FireB5DD7ACC4DB28AA53D9EF79E342C57DF.tmp' to '../../../../../Dissertation Project/DissertationProject/Content/StarterContent/Particles/P_Fire.uasset'
+[2023.07.31-01.20.46:692][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Effects/Fire" FILE="../../../../../Dissertation Project/DissertationProject/Content/Effects/Fire.uasset" SILENT=true
+[2023.07.31-01.20.46:947][971]LogSavePackage: Moving output files for package: /Game/Effects/Fire
+[2023.07.31-01.20.46:947][971]LogSavePackage: Moving '../../../../../Dissertation Project/DissertationProject/Saved/Fire2B849F4B402D1C047C26EAB08B6C844D.tmp' to '../../../../../Dissertation Project/DissertationProject/Content/Effects/Fire.uasset'
+[2023.07.31-01.20.46:948][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Effects/M_Heat_Distortion" FILE="../../../../../Dissertation Project/DissertationProject/Content/Effects/M_Heat_Distortion.uasset" SILENT=true
+[2023.07.31-01.20.46:950][971]LogSavePackage: Moving output files for package: /Game/Effects/M_Heat_Distortion
+[2023.07.31-01.20.46:950][971]LogSavePackage: Moving '../../../../../Dissertation Project/DissertationProject/Saved/M_Heat_DistortionD2C236DB4F25B507AB98549B8BBA3A17.tmp' to '../../../../../Dissertation Project/DissertationProject/Content/Effects/M_Heat_Distortion.uasset'
+[2023.07.31-01.20.46:975][971]LogFileHelpers: InternalPromptForCheckoutAndSave took 406 ms (total: 3.15 sec)
+[2023.07.31-01.20.47:030][971]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2023.07.31-01.20.47:071][971]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2023.07.31-01.20.47:108][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.07.31-01.20.47:168][971]AssetCheck: New page: Asset Save: multiple assets
+[2023.07.31-01.20.47:168][971]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Effects/M_Heat_Distortion.M_Heat_Distortion
+[2023.07.31-01.20.47:168][971]LogContentValidation: Display: Validating /Script/Niagara.NiagaraSystem /Game/Effects/Fire.Fire
+[2023.07.31-01.20.47:168][971]LogContentValidation: Display: Validating /Script/Engine.ParticleSystem /Game/StarterContent/Particles/P_Fire.P_Fire
+[2023.07.31-01.20.55:361][ 51]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.07.31-01.20.55:635][ 51]LogLinker: Warning: [AssetLog] D:\Dissertation Project\DissertationProject\Content\StarterContent\Particles\P_Ambient_Dust.uasset: Failed to load '/Game/StarterContent/Particles/Materials/M_Dust_Particle': Can't find file.
+[2023.07.31-01.20.55:635][ 51]LogLinker: Warning: [AssetLog] D:\Dissertation Project\DissertationProject\Content\StarterContent\Particles\P_Ambient_Dust.uasset: VerifyImport: Failed to load package for import object 'Package /Game/StarterContent/Particles/Materials/M_Dust_Particle'
+[2023.07.31-01.20.55:936][ 51]LogObjectTools: Deleting 3 worlds: /Game/StarterContent/Maps/StarterMap.StarterMap, /Game/StarterContent/Maps/Minimal_Default.Minimal_Default, /Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting
+[2023.07.31-01.20.55:936][ 51]LogObjectTools: Currently 12 active worlds: /Game/Levels/Level_0.Level_0, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_3, /Engine/Transient.World_4, /Engine/Transient.World_5, /Engine/Transient.World_6, /Engine/Transient.World_7, /Engine/Transient.World_8, /Engine/Transient.World_9, /Engine/Transient.World_10
+[2023.07.31-01.20.55:975][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.07.31-01.21.42:737][ 51]LogSlate: Window 'Delete Assets' being destroyed
+[2023.07.31-01.21.42:816][ 51]LogMaterial: Display: Material /Game/StarterContent/Props/Materials/M_Chair.M_Chair needed to have new flag set bUsedWithNanite !
+[2023.07.31-01.21.42:916][ 51]LogMaterial: Display: Material /Game/StarterContent/Props/Materials/M_TableRound.M_TableRound needed to have new flag set bUsedWithNanite !
+[2023.07.31-01.21.51:089][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2023.07.31-01.21.57:301][ 84]LogSlate: Window 'Delete Assets' being destroyed
+[2023.07.31-01.21.57:432][ 84]LogUObjectGlobals: Force Deleting 11 Package(s):
+	Asset Name: /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+	Asset Type: StaticMesh
+	Asset Name: /Game/StarterContent/Architecture/Pillar_50x500.Pillar_50x500
+	Asset Type: StaticMesh
+	Asset Name: /Game/StarterContent/Architecture/SM_AssetPlatform.SM_AssetPlatform
+	Asset Type: StaticMesh
+	Asset Name: /Game/StarterContent/Architecture/Wall_400x200.Wall_400x200
+	Asset Type: StaticMesh
+	Asset Name: /Game/StarterContent/Architecture/Wall_400x300.Wall_400x300
+	Asset Type: StaticMesh
+	Asset Name: /Game/StarterContent/Architecture/Wall_400x400.Wall_400x400
+	Asset Type: StaticMesh
+	Asset Name: /Game/StarterContent/Architecture/Wall_500x500.Wall_500x500
+	Asset Type: StaticMesh
+	Asset Name: /Game/StarterContent/Architecture/Wall_Door_400x300.Wall_Door_400x300
+	Asset Type: StaticMesh
+	Asset Name: /Game/StarterContent/Architecture/Wall_Door_400x400.Wall_Door_400x400
+	Asset Type: StaticMesh
+	Asset Name: /Game/StarterContent/Architecture/Wall_Window_400x300.Wall_Window_400x300
+	Asset Type: StaticMesh
+[2023.07.31-01.21.58:953][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2023.07.31-01.21.59:003][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2023.07.31-01.21.59:049][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Architecture/Wall_Window_400x400.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Architecture/Wall_400x300.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Architecture/Wall_400x400.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Architecture/Wall_500x500.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Architecture/Floor_400x400.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Architecture/Wall_Window_400x300.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Architecture/Pillar_50x500.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Particles/Materials/M_Burst.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Architecture/SM_AssetPlatform.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Architecture/Wall_Door_400x400.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Architecture/Wall_Door_400x300.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Architecture/Wall_400x300.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/Effects/Fire.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Architecture/Wall_Window_400x400.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Architecture/Wall_400x400.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Architecture/Wall_Door_400x400.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Architecture/Wall_500x500.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Particles/Materials/M_Burst.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Architecture/Wall_Door_400x300.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Architecture/SM_AssetPlatform.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Architecture/Wall_400x200.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Architecture/Wall_400x200.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Architecture/Floor_400x400.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Architecture/Wall_Window_400x300.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Architecture/Pillar_50x500.uasset has malformed tag
+[2023.07.31-01.22.44:524][495]LogAssetRegistry: Error: Package D:/Dissertation Project/DissertationProject/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset has malformed tag
+[2023.07.31-01.23.00:453][667]LogSlate: Window 'AI_Character' being destroyed
+[2023.07.31-01.23.00:458][667]LogSlate: Window 'AI_Character' being destroyed
+[2023.07.31-01.23.00:476][667]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.07.31-01.23.00:476][667]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.31-01.35.32:678][873]LogShaderCompilers: Display: ================================================
+[2023.07.31-01.35.32:678][873]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.07.31-01.35.32:678][873]LogShaderCompilers: Display: Total job queries 613, among them cache hits 74 (12.07%)
+[2023.07.31-01.35.32:678][873]LogShaderCompilers: Display: Tracking 539 distinct input hashes that result in 316 distinct outputs (58.63%)
+[2023.07.31-01.35.32:678][873]LogShaderCompilers: Display: RAM used: 3.87 MB (0.00 GB) of 3276.80 MB (3.20 GB) budget. Usage: 0.12%
+[2023.07.31-01.35.32:678][873]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.07.31-01.35.32:678][873]LogShaderCompilers: Display: Shaders Compiled: 249
+[2023.07.31-01.35.32:678][873]LogShaderCompilers: Display: Jobs assigned 249, completed 249 (100.00%)
+[2023.07.31-01.35.32:678][873]LogShaderCompilers: Display: Average time worker was idle: 1.97 s
+[2023.07.31-01.35.32:678][873]LogShaderCompilers: Display: Time job spent in pending queue: average 16.16 s, longest 32.03 s
+[2023.07.31-01.35.32:678][873]LogShaderCompilers: Display: Job execution time: average 1.19 s, max 3.80 s
+[2023.07.31-01.35.32:679][873]LogShaderCompilers: Display: Job life time (pending + execution): average 17.35 s, max 34.48
+[2023.07.31-01.35.32:679][873]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 38.54 s
+[2023.07.31-01.35.32:679][873]LogShaderCompilers: Display: Jobs were issued in 243 batches (only local compilation was used), average 1.02 jobs/batch
+[2023.07.31-01.35.32:679][873]LogShaderCompilers: Display: Average processing rate: 6.46 jobs/sec
+[2023.07.31-01.35.32:679][873]LogShaderCompilers: Display: Total thread time: 238.19 s
+[2023.07.31-01.35.32:679][873]LogShaderCompilers: Display: Total thread preprocess time: 14.48 s
+[2023.07.31-01.35.32:679][873]LogShaderCompilers: Display: Percentage time preprocessing: 6.08%
+[2023.07.31-01.35.32:679][873]LogShaderCompilers: Display: Effective parallelization: 6.18 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.07.31-01.35.32:679][873]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.07.31-01.35.32:679][873]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    1 times, average 2.57 sec, max 2.57 sec, min 2.57 sec)
+[2023.07.31-01.35.32:679][873]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyHQSkylight (compiled    1 times, average 2.32 sec, max 2.32 sec, min 2.32 sec)
+[2023.07.31-01.35.32:679][873]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 2.06 sec, max 2.06 sec, min 2.06 sec)
+[2023.07.31-01.35.32:679][873]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    1 times, average 1.26 sec, max 1.26 sec, min 1.26 sec)
+[2023.07.31-01.35.32:679][873]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 1.20 sec, max 1.20 sec, min 1.20 sec)
+[2023.07.31-01.35.32:679][873]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.07.31-01.35.32:679][873]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ - 20.55% of total time (compiled   44 times, average 1.11 sec, max 2.61 sec, min 0.89 sec)
+[2023.07.31-01.35.32:679][873]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyHQ - 17.51% of total time (compiled   42 times, average 0.99 sec, max 1.51 sec, min 0.83 sec)
+[2023.07.31-01.35.32:679][873]LogShaderCompilers: Display:                                                 FLumenCardVS - 15.36% of total time (compiled   41 times, average 0.89 sec, max 0.96 sec, min 0.77 sec)
+[2023.07.31-01.35.32:679][873]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 13.69% of total time (compiled   28 times, average 1.16 sec, max 2.35 sec, min 0.95 sec)
+[2023.07.31-01.35.32:679][873]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 10.08% of total time (compiled   41 times, average 0.59 sec, max 0.70 sec, min 0.52 sec)
+[2023.07.31-01.35.32:679][873]LogShaderCompilers: Display: ================================================
+[2023.07.31-01.35.35:892][906]LogSlate: Window 'Project Settings' being destroyed
+[2023.07.31-01.35.36:007][906]LogSlate: Window 'Project Settings' being destroyed
+[2023.07.31-01.38.15:003][173]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2023.07.31-01.38.15:014][173]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.31-01.38.15:105][173]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_0" FILE="../../../../../Dissertation Project/DissertationProject/Content/Levels/Level_0.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.07.31-01.38.15:264][173]LogUObjectHash: Compacting FUObjectHashTables data took   4.31ms
+[2023.07.31-01.38.16:013][173]LogSavePackage: Moving output files for package: /Game/Levels/Level_0
+[2023.07.31-01.38.16:013][173]LogSavePackage: Moving '../../../../../Dissertation Project/DissertationProject/Saved/Level_0F8DB536F49116409052EC7B881254FE5.tmp' to '../../../../../Dissertation Project/DissertationProject/Content/Levels/Level_0.umap'
+[2023.07.31-01.38.16:043][173]LogFileHelpers: Saving map 'Level_0' took 0.939
+[2023.07.31-01.38.16:043][173]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.31-01.38.16:070][173]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.07.31-01.38.16:080][173]LogSavePackage: Moving output files for package: /Game/StarterContent/Maps/Advanced_Lighting
+[2023.07.31-01.38.16:080][173]LogSavePackage: Moving '../../../../../Dissertation Project/DissertationProject/Saved/Advanced_Lighting9630A8B742470F9A12ECCC8154BADB52.tmp' to '../../../../../Dissertation Project/DissertationProject/Content/StarterContent/Maps/Advanced_Lighting.umap'
+[2023.07.31-01.38.16:091][173]LogFileHelpers: No new changes to save!
+[2023.07.31-01.38.16:094][173]LogFileHelpers: Saving map 'Advanced_Lighting' took 0.052
+[2023.07.31-01.38.16:095][173]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.31-01.38.16:133][173]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.07.31-01.38.16:197][173]LogSavePackage: Moving output files for package: /Game/StarterContent/Maps/StarterMap
+[2023.07.31-01.38.16:197][173]LogSavePackage: Moving '../../../../../Dissertation Project/DissertationProject/Saved/StarterMapD32E3A1A44095E68972FA296DA0E3F4B.tmp' to '../../../../../Dissertation Project/DissertationProject/Content/StarterContent/Maps/StarterMap.umap'
+[2023.07.31-01.38.16:209][173]LogFileHelpers: No new changes to save!
+[2023.07.31-01.38.16:219][173]LogFileHelpers: Saving map 'StarterMap' took 0.125
+[2023.07.31-01.38.16:220][173]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.31-01.38.16:245][173]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.07.31-01.38.16:256][173]LogSavePackage: Moving output files for package: /Game/StarterContent/Maps/Minimal_Default
+[2023.07.31-01.38.16:257][173]LogSavePackage: Moving '../../../../../Dissertation Project/DissertationProject/Saved/Minimal_Default8589F75B4AF3F4C0D22B329D1AC5C682.tmp' to '../../../../../Dissertation Project/DissertationProject/Content/StarterContent/Maps/Minimal_Default.umap'
+[2023.07.31-01.38.16:267][173]LogFileHelpers: No new changes to save!
+[2023.07.31-01.38.16:268][173]LogFileHelpers: Saving map 'Minimal_Default' took 0.049
+[2023.07.31-01.38.16:318][173]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/Materials/M_Chair" FILE="../../../../../Dissertation Project/DissertationProject/Content/StarterContent/Props/Materials/M_Chair.uasset" SILENT=true
+[2023.07.31-01.38.16:321][173]LogSavePackage: Moving output files for package: /Game/StarterContent/Props/Materials/M_Chair
+[2023.07.31-01.38.16:322][173]LogSavePackage: Moving '../../../../../Dissertation Project/DissertationProject/Saved/M_Chair6FE7A6864283CEE39473B896C0395E70.tmp' to '../../../../../Dissertation Project/DissertationProject/Content/StarterContent/Props/Materials/M_Chair.uasset'
+[2023.07.31-01.38.16:366][173]LogSavePackage: Moving output files for package: /Game/StarterContent/Props/Materials/M_TableRound
+[2023.07.31-01.38.16:366][173]LogSavePackage: Moving '../../../../../Dissertation Project/DissertationProject/Saved/M_TableRoundB537B54244FFD7F9B8F9B09BC4D467AE.tmp' to '../../../../../Dissertation Project/DissertationProject/Content/StarterContent/Props/Materials/M_TableRound.uasset'
+[2023.07.31-01.38.16:417][173]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.40 sec (total: 4.55 sec)
+[2023.07.31-01.38.16:425][173]AssetCheck: New page: Asset Save: multiple assets
+[2023.07.31-01.38.16:426][173]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level_0.Level_0
+[2023.07.31-01.38.16:426][173]LogContentValidation: Display: Validating /Script/Engine.Material /Game/StarterContent/Props/Materials/M_Chair.M_Chair
+[2023.07.31-01.38.16:426][173]LogContentValidation: Display: Validating /Script/Engine.Material /Game/StarterContent/Props/Materials/M_TableRound.M_TableRound
+[2023.07.31-01.38.16:426][173]LogContentValidation: Display: Validating /Script/Engine.World /Game/StarterContent/Maps/StarterMap.StarterMap
+[2023.07.31-01.38.16:426][173]LogContentValidation: Display: Validating /Script/Engine.World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2023.07.31-01.38.16:426][173]LogContentValidation: Display: Validating /Script/Engine.World /Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting
+[2023.07.31-01.38.29:508][345]Cmd: DELETE
+[2023.07.31-01.38.29:508][345]Cmd: ACTOR DELETE
+[2023.07.31-01.38.29:548][345]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.07.31-01.38.29:577][345]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.07.31-01.38.29:592][345]LogEditorActor: Deleted 1 Actors (0.084 secs)
+[2023.07.31-01.38.29:668][346]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_0.Level_0:PersistentLevel.RecastNavMesh-Default).
+[2023.07.31-01.38.30:799][360]Cmd: DELETE
+[2023.07.31-01.38.30:800][360]Cmd: ACTOR DELETE
+[2023.07.31-01.38.30:844][360]LogEditorActor: Deleted Actor: Game_Won_C
+[2023.07.31-01.38.30:895][360]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.07.31-01.38.30:898][360]LogEditorActor: Deleted 1 Actors (0.099 secs)
+[2023.07.31-01.38.36:028][427]Cmd: DELETE
+[2023.07.31-01.38.36:028][427]Cmd: ACTOR DELETE
+[2023.07.31-01.38.36:070][427]LogEditorActor: Deleted Actor: Game_Won_C
+[2023.07.31-01.38.36:113][427]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2023.07.31-01.38.36:116][427]LogEditorActor: Deleted 1 Actors (0.088 secs)
+[2023.07.31-01.38.37:134][440]Cmd: DELETE
+[2023.07.31-01.38.37:134][440]Cmd: ACTOR DELETE
+[2023.07.31-01.38.37:178][440]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.07.31-01.38.37:206][440]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.07.31-01.38.37:209][440]LogEditorActor: Deleted 1 Actors (0.074 secs)
+[2023.07.31-01.38.37:448][442]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_0.Level_0:PersistentLevel.RecastNavMesh-Default).
+[2023.07.31-01.38.39:625][468]Cmd: TRANSACTION UNDO
+[2023.07.31-01.38.39:625][468]LogEditorTransaction: Undo Clicking on Elements
+[2023.07.31-01.38.40:060][470]Cmd: TRANSACTION UNDO
+[2023.07.31-01.38.40:060][470]LogEditorTransaction: Undo Delete Elements
+[2023.07.31-01.38.40:401][471]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_0.Level_0:PersistentLevel.RecastNavMesh-Default).
+[2023.07.31-01.38.40:575][472]Cmd: TRANSACTION UNDO
+[2023.07.31-01.38.40:575][472]LogEditorTransaction: Undo Clicking on Elements
+[2023.07.31-01.38.44:065][508]Cmd: TRANSACTION UNDO
+[2023.07.31-01.38.44:065][508]LogEditorTransaction: Undo Delete Elements
+[2023.07.31-01.38.44:498][509]Cmd: TRANSACTION UNDO
+[2023.07.31-01.38.44:498][509]LogEditorTransaction: Undo Clicking on Elements
+[2023.07.31-01.38.45:229][516]Cmd: TRANSACTION UNDO
+[2023.07.31-01.38.45:229][516]LogEditorTransaction: Undo Delete Elements
+[2023.07.31-01.38.45:880][521]Cmd: TRANSACTION UNDO
+[2023.07.31-01.38.45:880][521]LogEditorTransaction: Undo Clicking on Elements
+[2023.07.31-01.38.46:962][532]Cmd: TRANSACTION UNDO
+[2023.07.31-01.38.46:962][532]LogEditorTransaction: Undo Delete Elements
+[2023.07.31-01.38.47:287][533]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_0.Level_0:PersistentLevel.RecastNavMesh-Default).
+[2023.07.31-01.38.50:211][566]Cmd: DELETE
+[2023.07.31-01.38.50:211][566]Cmd: ACTOR DELETE
+[2023.07.31-01.38.50:253][566]LogEditorActor: Deleted Actor: Game_Won_C
+[2023.07.31-01.38.50:317][566]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.07.31-01.38.50:325][566]LogEditorActor: Deleted 1 Actors (0.114 secs)
+[2023.07.31-01.38.52:045][588]Cmd: DELETE
+[2023.07.31-01.38.52:045][588]Cmd: ACTOR DELETE
+[2023.07.31-01.38.52:087][588]LogEditorActor: Deleted Actor: Game_Won_C
+[2023.07.31-01.38.52:138][588]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2023.07.31-01.38.52:140][588]LogEditorActor: Deleted 1 Actors (0.094 secs)
+[2023.07.31-01.38.54:727][624]Cmd: DELETE
+[2023.07.31-01.38.54:727][624]Cmd: ACTOR DELETE
+[2023.07.31-01.38.54:777][624]LogEditorActor: Deleted Actor: Game_Won_C
+[2023.07.31-01.38.54:810][624]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2023.07.31-01.38.54:813][624]LogEditorActor: Deleted 1 Actors (0.084 secs)
+[2023.07.31-01.39.12:400][870]Cmd: DELETE
+[2023.07.31-01.39.12:400][870]Cmd: ACTOR DELETE
+[2023.07.31-01.39.12:442][870]LogEditorActor: Deleted Actor: Game_Won_C
+[2023.07.31-01.39.12:476][870]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.07.31-01.39.12:478][870]LogEditorActor: Deleted 1 Actors (0.078 secs)
+[2023.07.31-01.39.27:721][ 78]Cmd: DELETE
+[2023.07.31-01.39.27:721][ 78]Cmd: ACTOR DELETE
+[2023.07.31-01.39.27:764][ 78]LogEditorActor: Deleted Actor: Game_Won_C
+[2023.07.31-01.39.27:810][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.07.31-01.39.27:813][ 78]LogEditorActor: Deleted 1 Actors (0.091 secs)
+[2023.07.31-01.39.36:660][191]Cmd: DELETE
+[2023.07.31-01.39.36:660][191]Cmd: ACTOR DELETE
+[2023.07.31-01.39.36:701][191]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.07.31-01.39.36:727][191]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.07.31-01.39.36:731][191]LogEditorActor: Deleted 1 Actors (0.071 secs)
+[2023.07.31-01.39.36:903][192]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_0.Level_0:PersistentLevel.RecastNavMesh-Default).
+[2023.07.31-01.39.38:362][213]Cmd: TRANSACTION UNDO
+[2023.07.31-01.39.38:362][213]LogEditorTransaction: Undo Delete Elements
+[2023.07.31-01.39.38:772][214]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_0.Level_0:PersistentLevel.RecastNavMesh-Default).
+[2023.07.31-01.39.50:634][354]Cmd: DELETE
+[2023.07.31-01.39.50:634][354]Cmd: ACTOR DELETE
+[2023.07.31-01.39.50:679][354]LogEditorActor: Deleted Actor: Game_Won_C
+[2023.07.31-01.39.50:725][354]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2023.07.31-01.39.50:730][354]LogEditorActor: Deleted 1 Actors (0.096 secs)
+[2023.07.31-01.39.54:466][394]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.07.31-01.39.54:469][394]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.31-01.39.54:566][394]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_0" FILE="../../../../../Dissertation Project/DissertationProject/Content/Levels/Level_0.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.07.31-01.39.54:589][394]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.07.31-01.39.55:247][394]LogSavePackage: Moving output files for package: /Game/Levels/Level_0
+[2023.07.31-01.39.55:248][394]LogSavePackage: Moving '../../../../../Dissertation Project/DissertationProject/Saved/Level_0D79C6AE84913AED0D3407DA0CE710D59.tmp' to '../../../../../Dissertation Project/DissertationProject/Content/Levels/Level_0.umap'
+[2023.07.31-01.39.55:280][394]LogFileHelpers: Saving map 'Level_0' took 0.716
+[2023.07.31-01.39.55:313][394]LogFileHelpers: InternalPromptForCheckoutAndSave took 843 ms (total: 5.40 sec)
+[2023.07.31-01.39.55:321][394]AssetCheck: New page: Asset Save: Level_0
+[2023.07.31-01.39.55:321][394]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level_0.Level_0

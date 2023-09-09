@@ -3602,3 +3602,774 @@ Context 1/2
 [2023.09.09-00.20.04:913][513]AssetCheck: New page: Asset Save: multiple assets
 [2023.09.09-00.20.04:913][513]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/AI_QLearning/AI_CharacterBP.AI_CharacterBP
 [2023.09.09-00.20.04:913][513]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller
+[2023.09.09-00.26.51:562][302]LogEditorTransaction: Undo Move Nodes
+[2023.09.09-00.31.40:816][620]BlueprintLog: New page: Compile AI_Character_Controller
+[2023.09.09-00.31.41:014][620]LogUObjectHash: Compacting FUObjectHashTables data took   4.90ms
+[2023.09.09-00.31.42:357][625]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.09-00.31.42:745][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI_QLearning/AI_Character_Controller" FILE="../../../../../Dissertation Project/DissertationProject/Content/AI_QLearning/AI_Character_Controller.uasset" SILENT=true
+[2023.09.09-00.31.42:892][625]LogSavePackage: Moving output files for package: /Game/AI_QLearning/AI_Character_Controller
+[2023.09.09-00.31.42:893][625]LogSavePackage: Moving '../../../../../Dissertation Project/DissertationProject/Saved/AI_Character_Controller441032434FC7586CB2021EAF36FAFF51.tmp' to '../../../../../Dissertation Project/DissertationProject/Content/AI_QLearning/AI_Character_Controller.uasset'
+[2023.09.09-00.31.42:913][625]LogFileHelpers: InternalPromptForCheckoutAndSave took 556 ms (total: 7.57 sec)
+[2023.09.09-00.31.42:928][625]AssetCheck: New page: Asset Save: AI_Character_Controller
+[2023.09.09-00.31.42:928][625]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller
+[2023.09.09-00.32.04:040][725]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.09-00.32.04:068][725]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.09.09-00.32.04:159][725]LogPlayLevel: [PlayLevel] Compiling AI_CharacterBP before play...
+[2023.09.09-00.32.04:289][725]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2023.09.09-00.32.04:303][725]LogPlayLevel: PlayLevel: Blueprint regeneration took 241 ms (1 blueprints)
+[2023.09.09-00.32.04:303][725]PIE: New page: PIE session: Level_2 (Sep 9, 2023, 2:32:04 AM)
+[2023.09.09-00.32.04:303][725]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_2
+[2023.09.09-00.32.04:956][725]LogPlayLevel: PIE: StaticDuplicateObject took: (0.653172s)
+[2023.09.09-00.32.04:956][725]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_2.Level_2 to /Game/Levels/UEDPIE_0_Level_2.Level_2 (0.653227s)
+[2023.09.09-00.32.04:957][725]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.09-00.32.04:957][725]LogAIModule: Creating AISystem for world Level_2
+[2023.09.09-00.32.04:959][725]LogPlayLevel: PIE: World Init took: (0.002641s)
+[2023.09.09-00.32.05:032][725]LogUObjectHash: Compacting FUObjectHashTables data took   4.54ms
+[2023.09.09-00.32.05:034][725]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.09.09-00.32.05:034][725]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.09-00.32.05:034][725]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.09-00.32.05:034][725]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.09-00.32.05:034][725]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.09-00.32.05:035][725]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.09-00.32.05:035][725]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.09-00.32.05:035][725]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.09-00.32.05:035][725]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.09-00.32.05:035][725]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.09-00.32.05:035][725]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.09-00.32.05:035][725]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.09-00.32.05:039][725]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.09-00.32.05:114][725]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.09.09-00.32.05:115][725]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.09-00.32.05:115][725]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.09-00.32.05:115][725]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.09-00.32.05:117][725]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2023.09.09-00.32.05:117][725]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2023.09.09-00.32.05:119][725]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2023.09.09-00.32.05:119][725]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2023.09.09-00.32.05:119][725]LogInit: FAudioDevice initialized.
+[2023.09.09-00.32.05:119][725]LogAudio: Display: Audio Device (ID: 9) registered with world 'Level_2'.
+[2023.09.09-00.32.05:128][725]LogLoad: Game class is 'Game_Mode_BP_C'
+[2023.09.09-00.32.05:324][725]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_2.Level_2 up for play (max tick rate 0) at 2023.09.09-01.32.05
+[2023.09.09-00.32.05:383][725]LogWorld: Bringing up level for play took: 0.254346
+[2023.09.09-00.32.05:387][725]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2023.09.09-00.32.05:399][725]PIE: Server logged in
+[2023.09.09-00.32.05:400][725]PIE: Play in editor total start time 1.339 seconds.
+[2023.09.09-00.32.11:077][750]LogScript: Warning: Script Msg: Attempted to access index 4 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.11:077][750]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.11:077][750]LogScript: Warning: Script Msg: Attempted to access index 5 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.11:077][750]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.11:077][750]LogScript: Warning: Script Msg: Attempted to access index 6 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.11:077][750]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.11:077][750]LogScript: Warning: Script Msg: Attempted to access index 7 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.11:077][750]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.11:077][750]LogBlueprintUserMessages: [AI_Character_Controller_C_0] Explore Mode Training Number:2
+[2023.09.09-00.32.16:222][783]LogScript: Warning: Script Msg: Attempted to access index 4 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.16:222][783]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.16:222][783]LogScript: Warning: Script Msg: Attempted to access index 5 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.16:222][783]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.16:222][783]LogScript: Warning: Script Msg: Attempted to access index 6 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.16:222][783]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.16:222][783]LogScript: Warning: Script Msg: Attempted to access index 7 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.16:222][783]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.16:222][783]LogBlueprintUserMessages: [AI_Character_Controller_C_0] Explore Mode Training Number:3
+[2023.09.09-00.32.21:295][815]LogScript: Warning: Script Msg: Attempted to access index 4 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.21:295][815]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.21:295][815]LogScript: Warning: Script Msg: Attempted to access index 5 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.21:295][815]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.21:295][815]LogScript: Warning: Script Msg: Attempted to access index 6 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.21:295][815]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.21:295][815]LogScript: Warning: Script Msg: Attempted to access index 7 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.21:295][815]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.21:295][815]LogBlueprintUserMessages: [AI_Character_Controller_C_0] Explore Mode Training Number:4
+[2023.09.09-00.32.26:330][845]LogScript: Warning: Script Msg: Attempted to access index 4 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.26:330][845]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.26:330][845]LogScript: Warning: Script Msg: Attempted to access index 5 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.26:330][845]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.26:330][845]LogScript: Warning: Script Msg: Attempted to access index 6 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.26:330][845]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.26:330][845]LogScript: Warning: Script Msg: Attempted to access index 7 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.26:330][845]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.26:330][845]LogBlueprintUserMessages: [AI_Character_Controller_C_0] Explore Mode Training Number:5
+[2023.09.09-00.32.31:492][876]LogScript: Warning: Script Msg: Attempted to access index 4 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.31:492][876]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.31:492][876]LogScript: Warning: Script Msg: Attempted to access index 5 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.31:492][876]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.31:492][876]LogScript: Warning: Script Msg: Attempted to access index 6 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.31:492][876]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.31:492][876]LogScript: Warning: Script Msg: Attempted to access index 7 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.31:492][876]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.31:492][876]LogBlueprintUserMessages: [AI_Character_Controller_C_0] Explore Mode Training Number:6
+[2023.09.09-00.32.36:597][907]LogScript: Warning: Script Msg: Attempted to access index 4 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.36:597][907]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.36:597][907]LogScript: Warning: Script Msg: Attempted to access index 5 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.36:597][907]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.36:597][907]LogScript: Warning: Script Msg: Attempted to access index 6 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.36:597][907]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.36:597][907]LogScript: Warning: Script Msg: Attempted to access index 7 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.36:597][907]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.36:597][907]LogBlueprintUserMessages: [AI_Character_Controller_C_0] Explore Mode Training Number:7
+[2023.09.09-00.32.41:737][938]LogScript: Warning: Script Msg: Attempted to access index 4 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.41:737][938]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.41:737][938]LogScript: Warning: Script Msg: Attempted to access index 5 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.41:738][938]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.41:738][938]LogScript: Warning: Script Msg: Attempted to access index 6 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.41:738][938]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.41:738][938]LogScript: Warning: Script Msg: Attempted to access index 7 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.41:738][938]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.41:738][938]LogBlueprintUserMessages: [AI_Character_Controller_C_0] Explore Mode Training Number:8
+[2023.09.09-00.32.46:855][969]LogScript: Warning: Script Msg: Attempted to access index 4 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.46:855][969]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.46:855][969]LogScript: Warning: Script Msg: Attempted to access index 5 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.46:855][969]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.46:855][969]LogScript: Warning: Script Msg: Attempted to access index 6 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.46:855][969]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.46:855][969]LogScript: Warning: Script Msg: Attempted to access index 7 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.46:855][969]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.46:856][969]LogBlueprintUserMessages: [AI_Character_Controller_C_0] Explore Mode Training Number:9
+[2023.09.09-00.32.51:954][999]LogScript: Warning: Script Msg: Attempted to access index 4 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.51:954][999]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.51:954][999]LogScript: Warning: Script Msg: Attempted to access index 5 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.51:954][999]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.51:954][999]LogScript: Warning: Script Msg: Attempted to access index 6 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.51:954][999]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.51:954][999]LogScript: Warning: Script Msg: Attempted to access index 7 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.32.51:954][999]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.32.51:954][999]LogBlueprintUserMessages: [AI_Character_Controller_C_0] Explore Mode Training Number:10
+[2023.09.09-00.32.52:151][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.09-00.32.52:151][  0]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_2
+[2023.09.09-00.32.52:153][  0]LogWorld: UWorld::CleanupWorld for Level_2, bSessionEnded=true, bCleanupResources=true
+[2023.09.09-00.32.52:200][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.09-00.32.52:543][  0]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.09-00.32.52:558][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.09-00.32.52:625][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.09-00.32.52:636][  0]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.09.09-00.32.52:640][  0]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.09.09-00.32.52:649][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.09-00.32.52:713][  0]LogUObjectHash: Compacting FUObjectHashTables data took   5.03ms
+[2023.09.09-00.32.52:889][  1]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2023.09.09-00.33.08:580][ 85]LogShaderCompilers: Display: ================================================
+[2023.09.09-00.33.08:580][ 85]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.09.09-00.33.08:580][ 85]LogShaderCompilers: Display: Total job queries 1574, among them cache hits 578 (36.72%)
+[2023.09.09-00.33.08:580][ 85]LogShaderCompilers: Display: Tracking 996 distinct input hashes that result in 94 distinct outputs (9.44%)
+[2023.09.09-00.33.08:580][ 85]LogShaderCompilers: Display: RAM used: 5.39 MB (0.01 GB) of 3276.80 MB (3.20 GB) budget. Usage: 0.16%
+[2023.09.09-00.33.08:580][ 85]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.09.09-00.33.08:580][ 85]LogShaderCompilers: Display: Shaders Compiled: 10
+[2023.09.09-00.33.08:580][ 85]LogShaderCompilers: Display: Jobs assigned 10, completed 10 (100.00%)
+[2023.09.09-00.33.08:580][ 85]LogShaderCompilers: Display: Average time worker was idle: 22174.12 s
+[2023.09.09-00.33.08:580][ 85]LogShaderCompilers: Display: Time job spent in pending queue: average 0.09 s, longest 0.10 s
+[2023.09.09-00.33.08:580][ 85]LogShaderCompilers: Display: Job execution time: average 2.36 s, max 4.98 s
+[2023.09.09-00.33.08:580][ 85]LogShaderCompilers: Display: Job life time (pending + execution): average 2.45 s, max 5.04
+[2023.09.09-00.33.08:580][ 85]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.85 s
+[2023.09.09-00.33.08:580][ 85]LogShaderCompilers: Display: Jobs were issued in 10 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.09.09-00.33.08:580][ 85]LogShaderCompilers: Display: Average processing rate: 1.46 jobs/sec
+[2023.09.09-00.33.08:580][ 85]LogShaderCompilers: Display: Total thread time: 9.75 s
+[2023.09.09-00.33.08:580][ 85]LogShaderCompilers: Display: Total thread preprocess time: 0.87 s
+[2023.09.09-00.33.08:580][ 85]LogShaderCompilers: Display: Percentage time preprocessing: 8.87%
+[2023.09.09-00.33.08:580][ 85]LogShaderCompilers: Display: Effective parallelization: 1.42 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.09.09-00.33.08:581][ 85]LogShaderCompilers: Display: Top 3 most expensive shader types by average time:
+[2023.09.09-00.33.08:581][ 85]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 1.61 sec, max 1.61 sec, min 1.61 sec)
+[2023.09.09-00.33.08:581][ 85]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    5 times, average 0.99 sec, max 1.60 sec, min 0.81 sec)
+[2023.09.09-00.33.08:581][ 85]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    4 times, average 0.80 sec, max 0.81 sec, min 0.80 sec)
+[2023.09.09-00.33.08:581][ 85]LogShaderCompilers: Display: Top 3 shader types by total compile time:
+[2023.09.09-00.33.08:581][ 85]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 50.54% of total time (compiled    5 times, average 0.99 sec, max 1.60 sec, min 0.81 sec)
+[2023.09.09-00.33.08:581][ 85]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 32.92% of total time (compiled    4 times, average 0.80 sec, max 0.81 sec, min 0.80 sec)
+[2023.09.09-00.33.08:581][ 85]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 16.54% of total time (compiled    1 times, average 1.61 sec, max 1.61 sec, min 1.61 sec)
+[2023.09.09-00.33.08:581][ 85]LogShaderCompilers: Display: ================================================
+[2023.09.09-00.33.15:324][125]Cmd: DELETE
+[2023.09.09-00.33.15:324][125]Cmd: ACTOR DELETE
+[2023.09.09-00.33.15:500][125]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.09.09-00.33.15:581][125]LogUObjectHash: Compacting FUObjectHashTables data took   4.33ms
+[2023.09.09-00.33.15:594][125]LogEditorActor: Deleted 1 Actors (0.269 secs)
+[2023.09.09-00.33.15:672][126]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.33.37:629][268]Cmd: DELETE
+[2023.09.09-00.33.37:629][268]Cmd: ACTOR DELETE
+[2023.09.09-00.33.37:797][268]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.09.09-00.33.37:866][268]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.09.09-00.33.37:874][268]LogEditorActor: Deleted 1 Actors (0.244 secs)
+[2023.09.09-00.33.38:658][272]Cmd: DELETE
+[2023.09.09-00.33.38:658][272]Cmd: ACTOR DELETE
+[2023.09.09-00.33.38:811][272]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.09.09-00.33.38:883][272]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.09.09-00.33.38:889][272]LogEditorActor: Deleted 1 Actors (0.231 secs)
+[2023.09.09-00.33.45:931][316]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.33.46:233][318]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.33.46:867][321]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.33.48:818][330]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.33.51:107][342]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.34.01:765][402]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.34.04:514][416]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.34.08:282][432]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.34.09:312][436]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.34.09:677][439]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.34.10:354][442]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.34.11:251][446]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.34.14:206][459]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.34.16:684][475]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.34.18:015][481]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.34.21:225][497]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.34.22:222][502]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.34.24:492][512]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.34.26:300][520]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.34.27:427][524]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.34.34:995][566]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.34.35:875][570]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.34.36:661][573]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.34.43:183][605]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.09.09-00.34.43:196][605]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.09-00.34.43:394][605]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_2" FILE="../../../../../Dissertation Project/DissertationProject/Content/Levels/Level_2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.09.09-00.34.43:467][605]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.09.09-00.34.46:169][605]LogSavePackage: Moving output files for package: /Game/Levels/Level_2
+[2023.09.09-00.34.46:170][605]LogSavePackage: Moving '../../../../../Dissertation Project/DissertationProject/Saved/Level_2B5F6C3A847F2EFD182F56E85D7B03E79.tmp' to '../../../../../Dissertation Project/DissertationProject/Content/Levels/Level_2.umap'
+[2023.09.09-00.34.46:236][605]LogFileHelpers: Saving map 'Level_2' took 2.847
+[2023.09.09-00.34.46:322][605]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.12 sec (total: 10.6 sec)
+[2023.09.09-00.34.46:341][605]AssetCheck: New page: Asset Save: Level_2
+[2023.09.09-00.34.46:341][605]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level_2.Level_2
+[2023.09.09-00.34.51:795][637]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.09-00.34.51:820][637]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.09-00.34.51:820][637]PIE: New page: PIE session: Level_2 (Sep 9, 2023, 2:34:51 AM)
+[2023.09.09-00.34.51:820][637]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_2
+[2023.09.09-00.34.52:474][637]LogPlayLevel: PIE: StaticDuplicateObject took: (0.656554s)
+[2023.09.09-00.34.52:474][637]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_2.Level_2 to /Game/Levels/UEDPIE_0_Level_2.Level_2 (0.656610s)
+[2023.09.09-00.34.52:474][637]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.09-00.34.52:475][637]LogAIModule: Creating AISystem for world Level_2
+[2023.09.09-00.34.52:476][637]LogPlayLevel: PIE: World Init took: (0.002444s)
+[2023.09.09-00.34.52:554][637]LogUObjectHash: Compacting FUObjectHashTables data took   4.86ms
+[2023.09.09-00.34.52:559][637]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.09.09-00.34.52:559][637]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.09-00.34.52:559][637]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.09-00.34.52:559][637]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.09-00.34.52:559][637]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.09-00.34.52:559][637]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.09-00.34.52:559][637]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.09-00.34.52:559][637]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.09-00.34.52:559][637]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.09-00.34.52:559][637]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.09-00.34.52:559][637]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.09-00.34.52:560][637]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.09-00.34.52:563][637]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.09-00.34.52:634][637]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.09.09-00.34.52:634][637]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.09-00.34.52:634][637]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.09-00.34.52:634][637]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.09-00.34.52:636][637]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2023.09.09-00.34.52:636][637]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2023.09.09-00.34.52:638][637]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2023.09.09-00.34.52:638][637]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2023.09.09-00.34.52:638][637]LogInit: FAudioDevice initialized.
+[2023.09.09-00.34.52:639][637]LogAudio: Display: Audio Device (ID: 10) registered with world 'Level_2'.
+[2023.09.09-00.34.52:647][637]LogLoad: Game class is 'Game_Mode_BP_C'
+[2023.09.09-00.34.52:835][637]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_2.Level_2 up for play (max tick rate 0) at 2023.09.09-01.34.52
+[2023.09.09-00.34.52:883][637]LogWorld: Bringing up level for play took: 0.235606
+[2023.09.09-00.34.52:887][637]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2023.09.09-00.34.52:899][637]PIE: Server logged in
+[2023.09.09-00.34.52:900][637]PIE: Play in editor total start time 1.084 seconds.
+[2023.09.09-00.34.58:455][663]LogScript: Warning: Script Msg: Attempted to access index 4 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.34.58:455][663]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.34.58:455][663]LogScript: Warning: Script Msg: Attempted to access index 5 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.34.58:455][663]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.34.58:455][663]LogScript: Warning: Script Msg: Attempted to access index 6 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.34.58:455][663]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.34.58:455][663]LogScript: Warning: Script Msg: Attempted to access index 7 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.34.58:455][663]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.34.58:455][663]LogBlueprintUserMessages: [AI_Character_Controller_C_0] Explore Mode Training Number:2
+[2023.09.09-00.35.03:514][694]LogScript: Warning: Script Msg: Attempted to access index 4 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.35.03:514][694]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.35.03:514][694]LogScript: Warning: Script Msg: Attempted to access index 5 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.35.03:514][694]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.35.03:514][694]LogScript: Warning: Script Msg: Attempted to access index 6 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.35.03:514][694]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.35.03:514][694]LogScript: Warning: Script Msg: Attempted to access index 7 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.35.03:514][694]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.35.03:514][694]LogBlueprintUserMessages: [AI_Character_Controller_C_0] Explore Mode Training Number:3
+[2023.09.09-00.35.08:622][726]LogScript: Warning: Script Msg: Attempted to access index 4 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.35.08:622][726]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.35.08:622][726]LogScript: Warning: Script Msg: Attempted to access index 5 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.35.08:622][726]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.35.08:622][726]LogScript: Warning: Script Msg: Attempted to access index 6 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.35.08:623][726]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.35.08:623][726]LogScript: Warning: Script Msg: Attempted to access index 7 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.35.08:623][726]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.35.08:623][726]LogBlueprintUserMessages: [AI_Character_Controller_C_0] Explore Mode Training Number:4
+[2023.09.09-00.35.13:738][757]LogScript: Warning: Script Msg: Attempted to access index 4 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.35.13:738][757]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.35.13:738][757]LogScript: Warning: Script Msg: Attempted to access index 5 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.35.13:738][757]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.35.13:738][757]LogScript: Warning: Script Msg: Attempted to access index 6 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.35.13:738][757]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.35.13:738][757]LogScript: Warning: Script Msg: Attempted to access index 7 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.35.13:738][757]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.35.13:738][757]LogBlueprintUserMessages: [AI_Character_Controller_C_0] Explore Mode Training Number:5
+[2023.09.09-00.35.18:754][787]LogScript: Warning: Script Msg: Attempted to access index 4 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.35.18:754][787]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.35.18:754][787]LogScript: Warning: Script Msg: Attempted to access index 5 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.35.18:754][787]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.35.18:754][787]LogScript: Warning: Script Msg: Attempted to access index 6 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.35.18:754][787]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.35.18:754][787]LogScript: Warning: Script Msg: Attempted to access index 7 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.35.18:754][787]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.35.18:754][787]LogBlueprintUserMessages: [AI_Character_Controller_C_0] Explore Mode Training Number:6
+[2023.09.09-00.35.22:040][806]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.09-00.35.22:040][806]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_2
+[2023.09.09-00.35.22:044][806]LogWorld: UWorld::CleanupWorld for Level_2, bSessionEnded=true, bCleanupResources=true
+[2023.09.09-00.35.22:100][806]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.09-00.35.22:458][806]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.09-00.35.22:474][806]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.09-00.35.22:567][806]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.09-00.35.22:570][806]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.09.09-00.35.22:574][806]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.09.09-00.35.22:629][806]LogUObjectHash: Compacting FUObjectHashTables data took   5.02ms
+[2023.09.09-00.35.22:805][807]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2023.09.09-00.35.32:231][859]Cmd: DELETE
+[2023.09.09-00.35.32:231][859]Cmd: ACTOR DELETE
+[2023.09.09-00.35.32:375][859]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.09.09-00.35.32:443][859]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2023.09.09-00.35.32:455][859]LogEditorActor: Deleted 1 Actors (0.224 secs)
+[2023.09.09-00.35.32:487][860]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.36.37:535][203]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.36.38:366][207]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.36.39:422][213]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.36.40:746][220]Cmd: TRANSACTION UNDO
+[2023.09.09-00.36.40:746][220]LogEditorTransaction: Undo Move Elements
+[2023.09.09-00.36.41:229][221]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.36.41:684][223]Cmd: TRANSACTION UNDO
+[2023.09.09-00.36.41:685][223]LogEditorTransaction: Undo Clicking on Elements
+[2023.09.09-00.36.42:448][225]Cmd: TRANSACTION UNDO
+[2023.09.09-00.36.42:448][225]LogEditorTransaction: Undo Clicking on Elements
+[2023.09.09-00.36.43:321][228]Cmd: TRANSACTION UNDO
+[2023.09.09-00.36.43:322][228]LogEditorTransaction: Undo Delete Elements
+[2023.09.09-00.36.43:851][229]Cmd: TRANSACTION UNDO
+[2023.09.09-00.36.43:851][229]LogEditorTransaction: Undo Clicking on Elements
+[2023.09.09-00.36.43:893][229]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.36.44:588][232]Cmd: TRANSACTION UNDO
+[2023.09.09-00.36.44:588][232]LogEditorTransaction: Undo Clicking on Elements
+[2023.09.09-00.36.45:642][237]Cmd: TRANSACTION UNDO
+[2023.09.09-00.36.45:642][237]LogEditorTransaction: Undo Clicking on Elements
+[2023.09.09-00.37.03:334][327]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.37.04:585][334]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.37.04:933][337]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.37.05:552][341]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.37.06:217][345]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.37.06:888][349]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.37.07:690][352]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.37.11:097][371]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.37.11:721][374]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.37.12:847][378]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.37.13:150][380]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.37.13:757][384]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.37.14:760][389]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.37.19:862][414]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.37.20:526][418]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.37.20:832][420]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.37.21:438][424]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.37.22:081][428]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.37.22:677][432]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.37.23:314][436]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.37.23:930][440]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.37.25:266][446]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.37.34:036][492]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.37.34:300][494]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.37.35:825][500]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.37.58:277][626]Cmd: EDIT COPY
+[2023.09.09-00.37.58:739][628]Cmd: EDIT PASTE
+[2023.09.09-00.37.59:089][629]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.38.00:919][638]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.38.04:064][652]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.38.05:773][659]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.38.06:059][661]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.38.06:516][663]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.38.07:370][668]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.38.07:888][671]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.38.08:376][673]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.38.08:829][675]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.38.10:510][682]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.38.10:981][684]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.38.11:674][687]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.38.12:386][690]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.38.14:460][699]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.38.15:634][704]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.38.18:140][719]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.38.20:097][729]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.38.23:027][743]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.38.25:223][753]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.38.26:246][758]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.38.42:982][855]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.38.43:721][859]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.38.44:414][862]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.38.45:130][865]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.38.47:640][876]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.38.48:862][880]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.38.50:376][888]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.38.55:931][919]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.38.56:259][921]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.38.56:940][924]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.39.01:127][950]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.39.06:729][978]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.39.06:983][980]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.39.08:705][987]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.39.11:786][  4]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.39.13:052][ 12]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.39.13:653][ 15]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.39.15:159][ 25]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.39.16:949][ 36]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.39.18:071][ 42]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.39.23:116][ 73]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.39.26:111][ 90]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.39.28:556][104]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.39.33:051][125]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.39.34:200][131]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.39.34:561][133]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.39.36:081][139]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.39.42:423][174]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.39.56:251][243]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Fire_Hose.Fire_Hose
+[2023.09.09-00.39.56:251][243]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Fire_Hose.Fire_Hose
+[2023.09.09-00.39.56:252][243]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Fire_Hose.Fire_Hose as actor: StaticMeshActor /Game/Levels/Level_2.Level_2:PersistentLevel.StaticMeshActor_42
+[2023.09.09-00.40.03:030][287]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Fire_Hose.Fire_Hose
+[2023.09.09-00.40.03:030][287]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Fire_Hose.Fire_Hose
+[2023.09.09-00.40.03:035][287]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Fire_Hose.Fire_Hose as actor: StaticMeshActor /Game/Levels/Level_2.Level_2:PersistentLevel.StaticMeshActor_43
+[2023.09.09-00.40.15:525][357]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Med_Kit.Med_Kit
+[2023.09.09-00.40.15:526][357]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Med_Kit.Med_Kit
+[2023.09.09-00.40.15:527][357]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Med_Kit.Med_Kit as actor: StaticMeshActor /Game/Levels/Level_2.Level_2:PersistentLevel.StaticMeshActor_44
+[2023.09.09-00.40.16:761][365]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Med_Kit.Med_Kit
+[2023.09.09-00.40.16:761][365]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Med_Kit.Med_Kit
+[2023.09.09-00.40.16:765][365]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Med_Kit.Med_Kit as actor: StaticMeshActor /Game/Levels/Level_2.Level_2:PersistentLevel.StaticMeshActor_45
+[2023.09.09-00.40.16:876][366]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.40.20:967][389]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.40.21:232][391]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.40.22:143][395]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.40.23:058][399]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.40.23:963][403]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.40.25:227][409]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.40.32:250][440]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.40.36:108][460]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.40.41:223][492]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.41.06:970][647]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.41.07:838][651]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.41.08:085][653]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.41.09:057][657]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.41.13:599][678]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.41.40:022][827]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.41.49:423][877]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.41.54:772][903]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.42.14:341][  2]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.42.24:402][ 55]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.42.39:218][129]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.42.45:485][164]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.42.50:825][191]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.42.55:690][218]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.43.00:977][244]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.43.06:129][273]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.43.14:068][314]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.43.15:494][322]Cmd: EDIT COPY
+[2023.09.09-00.43.16:064][325]Cmd: EDIT PASTE
+[2023.09.09-00.43.17:084][328]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.43.22:346][354]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.43.29:847][398]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.43.34:839][425]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.43.35:470][429]Cmd: TRANSACTION UNDO
+[2023.09.09-00.43.35:470][429]LogEditorTransaction: Undo Move Elements
+[2023.09.09-00.43.35:990][430]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.43.39:950][454]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.43.43:749][472]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.43.48:343][496]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.43.53:305][523]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.43.58:768][552]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.43.59:576][557]Cmd: EDIT COPY
+[2023.09.09-00.43.59:920][559]Cmd: EDIT PASTE
+[2023.09.09-00.44.00:926][562]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.44.02:908][571]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.44.10:572][608]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.44.15:982][638]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.44.21:104][668]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/Level_2.Level_2:PersistentLevel.RecastNavMesh-Default).
+[2023.09.09-00.44.25:095][690]LogShaderCompilers: Display: ================================================
+[2023.09.09-00.44.25:095][690]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.09.09-00.44.25:095][690]LogShaderCompilers: Display: Total job queries 1586, among them cache hits 582 (36.70%)
+[2023.09.09-00.44.25:095][690]LogShaderCompilers: Display: Tracking 1003 distinct input hashes that result in 101 distinct outputs (10.07%)
+[2023.09.09-00.44.25:095][690]LogShaderCompilers: Display: RAM used: 5.42 MB (0.01 GB) of 3276.80 MB (3.20 GB) budget. Usage: 0.17%
+[2023.09.09-00.44.25:095][690]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.09.09-00.44.25:095][690]LogShaderCompilers: Display: Shaders Compiled: 11
+[2023.09.09-00.44.25:095][690]LogShaderCompilers: Display: Jobs assigned 12, completed 11 (91.67%)
+[2023.09.09-00.44.25:095][690]LogShaderCompilers: Display: Average time worker was idle: 11424.55 s
+[2023.09.09-00.44.25:095][690]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 0.10 s
+[2023.09.09-00.44.25:095][690]LogShaderCompilers: Display: Job execution time: average 2.29 s, max 4.98 s
+[2023.09.09-00.44.25:095][690]LogShaderCompilers: Display: Job life time (pending + execution): average 2.38 s, max 5.04
+[2023.09.09-00.44.25:095][690]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 8.47 s
+[2023.09.09-00.44.25:095][690]LogShaderCompilers: Display: Jobs were issued in 12 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.09.09-00.44.25:095][690]LogShaderCompilers: Display: Average processing rate: 1.30 jobs/sec
+[2023.09.09-00.44.25:095][690]LogShaderCompilers: Display: Total thread time: 11.02 s
+[2023.09.09-00.44.25:095][690]LogShaderCompilers: Display: Total thread preprocess time: 0.95 s
+[2023.09.09-00.44.25:095][690]LogShaderCompilers: Display: Percentage time preprocessing: 8.58%
+[2023.09.09-00.44.25:095][690]LogShaderCompilers: Display: Effective parallelization: 1.30 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.09.09-00.44.25:095][690]LogShaderCompilers: Display: Top 3 most expensive shader types by average time:
+[2023.09.09-00.44.25:095][690]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 1.61 sec, max 1.61 sec, min 1.61 sec)
+[2023.09.09-00.44.25:095][690]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    5 times, average 0.99 sec, max 1.60 sec, min 0.81 sec)
+[2023.09.09-00.44.25:095][690]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    5 times, average 0.90 sec, max 1.27 sec, min 0.80 sec)
+[2023.09.09-00.44.25:095][690]LogShaderCompilers: Display: Top 3 shader types by total compile time:
+[2023.09.09-00.44.25:095][690]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 44.72% of total time (compiled    5 times, average 0.99 sec, max 1.60 sec, min 0.81 sec)
+[2023.09.09-00.44.25:095][690]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 40.64% of total time (compiled    5 times, average 0.90 sec, max 1.27 sec, min 0.80 sec)
+[2023.09.09-00.44.25:095][690]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 14.64% of total time (compiled    1 times, average 1.61 sec, max 1.61 sec, min 1.61 sec)
+[2023.09.09-00.44.25:095][690]LogShaderCompilers: Display: ================================================
+[2023.09.09-00.44.33:855][740]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.09-00.44.33:886][740]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.09-00.44.33:886][740]PIE: New page: PIE session: Level_2 (Sep 9, 2023, 2:44:33 AM)
+[2023.09.09-00.44.33:886][740]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_2
+[2023.09.09-00.44.34:531][740]LogPlayLevel: PIE: StaticDuplicateObject took: (0.654974s)
+[2023.09.09-00.44.34:531][740]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_2.Level_2 to /Game/Levels/UEDPIE_0_Level_2.Level_2 (0.655029s)
+[2023.09.09-00.44.34:531][740]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.09-00.44.34:532][740]LogAIModule: Creating AISystem for world Level_2
+[2023.09.09-00.44.34:533][740]LogPlayLevel: PIE: World Init took: (0.002694s)
+[2023.09.09-00.44.34:614][740]LogUObjectHash: Compacting FUObjectHashTables data took   4.25ms
+[2023.09.09-00.44.34:635][740]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.09.09-00.44.34:635][740]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.09-00.44.34:635][740]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.09-00.44.34:635][740]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.09-00.44.34:635][740]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.09-00.44.34:636][740]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.09-00.44.34:636][740]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.09-00.44.34:636][740]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.09-00.44.34:636][740]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.09-00.44.34:636][740]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.09-00.44.34:636][740]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.09-00.44.34:636][740]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.09-00.44.34:640][740]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.09-00.44.34:713][740]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.09.09-00.44.34:713][740]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.09-00.44.34:713][740]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.09-00.44.34:713][740]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.09-00.44.34:714][740]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2023.09.09-00.44.34:714][740]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2023.09.09-00.44.34:717][740]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2023.09.09-00.44.34:717][740]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2023.09.09-00.44.34:717][740]LogInit: FAudioDevice initialized.
+[2023.09.09-00.44.34:717][740]LogAudio: Display: Audio Device (ID: 11) registered with world 'Level_2'.
+[2023.09.09-00.44.34:728][740]LogLoad: Game class is 'Game_Mode_BP_C'
+[2023.09.09-00.44.34:915][740]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_2.Level_2 up for play (max tick rate 60) at 2023.09.09-01.44.34
+[2023.09.09-00.44.34:963][740]LogWorld: Bringing up level for play took: 0.235580
+[2023.09.09-00.44.34:967][740]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2023.09.09-00.44.34:980][740]PIE: Server logged in
+[2023.09.09-00.44.34:981][740]PIE: Play in editor total start time 1.106 seconds.
+[2023.09.09-00.44.40:516][766]LogScript: Warning: Script Msg: Attempted to access index 4 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.44.40:516][766]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.44.40:516][766]LogScript: Warning: Script Msg: Attempted to access index 5 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.44.40:516][766]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.44.40:516][766]LogScript: Warning: Script Msg: Attempted to access index 6 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.44.40:516][766]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.44.40:516][766]LogScript: Warning: Script Msg: Attempted to access index 7 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.44.40:516][766]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.44.40:516][766]LogBlueprintUserMessages: [AI_Character_Controller_C_0] Explore Mode Training Number:2
+[2023.09.09-00.44.45:623][799]LogScript: Warning: Script Msg: Attempted to access index 4 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.44.45:624][799]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.44.45:624][799]LogScript: Warning: Script Msg: Attempted to access index 5 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.44.45:624][799]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.44.45:624][799]LogScript: Warning: Script Msg: Attempted to access index 6 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.44.45:624][799]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.44.45:624][799]LogScript: Warning: Script Msg: Attempted to access index 7 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.44.45:624][799]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.44.45:624][799]LogBlueprintUserMessages: [AI_Character_Controller_C_0] Explore Mode Training Number:3
+[2023.09.09-00.44.50:771][831]LogScript: Warning: Script Msg: Attempted to access index 4 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.44.50:771][831]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.44.50:771][831]LogScript: Warning: Script Msg: Attempted to access index 5 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.44.50:771][831]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.44.50:771][831]LogScript: Warning: Script Msg: Attempted to access index 6 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.44.50:771][831]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.44.50:771][831]LogScript: Warning: Script Msg: Attempted to access index 7 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.44.50:772][831]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.44.50:772][831]LogBlueprintUserMessages: [AI_Character_Controller_C_0] Explore Mode Training Number:4
+[2023.09.09-00.44.55:830][862]LogScript: Warning: Script Msg: Attempted to access index 4 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.44.55:830][862]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.44.55:830][862]LogScript: Warning: Script Msg: Attempted to access index 5 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.44.55:830][862]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.44.55:831][862]LogScript: Warning: Script Msg: Attempted to access index 6 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.44.55:831][862]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.44.55:831][862]LogScript: Warning: Script Msg: Attempted to access index 7 from array '1darray_3_AA2758084F25A6D490B629ACE5B15F09' of length 4 in '/Game/AI_QLearning/2Darray.2Darray'!
+[2023.09.09-00.44.55:831][862]LogScript: Warning: Last function called:
+	/Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller_C.ExecuteUbergraph_AI_Character_Controller
+
+[2023.09.09-00.44.55:831][862]LogBlueprintUserMessages: [AI_Character_Controller_C_0] Explore Mode Training Number:5
+[2023.09.09-00.44.58:876][880]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.09.09-00.44.58:876][880]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2023.09.09-00.45.03:133][906]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.09.09-00.45.03:133][906]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.09.09-00.45.03:138][906]LogNet: Browse: /Game/Levels/Ground_Floor_Level
+[2023.09.09-00.45.03:138][906]LogLoad: LoadMap: /Game/Levels/Ground_Floor_Level
+[2023.09.09-00.45.03:138][906]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_2
+[2023.09.09-00.45.03:143][906]LogWorld: UWorld::CleanupWorld for Level_2, bSessionEnded=true, bCleanupResources=true
+[2023.09.09-00.45.03:179][906]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.09-00.45.03:337][906]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.09-00.45.03:384][906]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2023.09.09-00.45.03:963][906]LogAudio: Display: Audio Device (ID: 11) registered with world 'Ground_Floor_Level'.
+[2023.09.09-00.45.03:963][906]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.09-00.45.03:964][906]LogAIModule: Creating AISystem for world Ground_Floor_Level
+[2023.09.09-00.45.03:965][906]LogPlayLevel: PIE: World Init took: (0.001713s)
+[2023.09.09-00.45.03:965][906]LogLoad: Game class is 'Game_Mode_BP_C'
+[2023.09.09-00.45.03:978][906]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Assets/Metal_Fence.Metal_Fence being ready before playing
+[2023.09.09-00.45.03:978][906]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Assets/Metal_Door.Metal_Door being ready before playing
+[2023.09.09-00.45.03:978][906]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Assets/FireExitSignRight_Line106.FireExitSignRight_Line106 being ready before playing
+[2023.09.09-00.45.03:978][906]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Assets/FireExitSignDown_Line076.FireExitSignDown_Line076 being ready before playing
+[2023.09.09-00.45.03:978][906]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Assets/ATM.ATM being ready before playing
+[2023.09.09-00.45.04:246][906]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ground_Floor_Level.Ground_Floor_Level up for play (max tick rate 60) at 2023.09.09-01.45.04
+[2023.09.09-00.45.04:273][906]LogWorld: Bringing up level for play took: 0.291522
+[2023.09.09-00.45.04:280][906]LogLoad: Took 1.141197 seconds to LoadMap(/Game/Levels/Ground_Floor_Level)
+[2023.09.09-00.45.06:979][917]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.09-00.45.06:979][917]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ground_Floor_Level
+[2023.09.09-00.45.06:980][917]LogWorld: UWorld::CleanupWorld for Ground_Floor_Level, bSessionEnded=true, bCleanupResources=true
+[2023.09.09-00.45.06:986][917]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.09-00.45.07:042][917]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.09-00.45.07:055][917]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.09-00.45.07:128][917]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.09-00.45.07:128][917]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.09.09-00.45.07:132][917]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.09.09-00.45.07:149][917]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.09-00.45.07:163][917]LogUObjectHash: Compacting FUObjectHashTables data took   4.08ms
+[2023.09.09-00.45.07:293][918]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2023.09.09-00.45.31:087][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2023.09.09-00.45.31:098][ 65]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.09-00.45.31:300][ 65]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_2" FILE="../../../../../Dissertation Project/DissertationProject/Content/Levels/Level_2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.09.09-00.45.31:370][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2023.09.09-00.45.34:090][ 65]LogSavePackage: Moving output files for package: /Game/Levels/Level_2
+[2023.09.09-00.45.34:091][ 65]LogSavePackage: Moving '../../../../../Dissertation Project/DissertationProject/Saved/Level_2C4C8CAA24B10FF81DB633DA7F4E08532.tmp' to '../../../../../Dissertation Project/DissertationProject/Content/Levels/Level_2.umap'
+[2023.09.09-00.45.34:155][ 65]LogFileHelpers: Saving map 'Level_2' took 2.860
+[2023.09.09-00.45.34:231][ 65]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.13 sec (total: 13.8 sec)
+[2023.09.09-00.45.34:248][ 65]AssetCheck: New page: Asset Save: Level_2
+[2023.09.09-00.45.34:248][ 65]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level_2.Level_2

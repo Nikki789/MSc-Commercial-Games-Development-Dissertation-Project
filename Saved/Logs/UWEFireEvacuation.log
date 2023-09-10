@@ -4373,3 +4373,118 @@ Context 1/2
 [2023.09.09-00.45.34:231][ 65]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.13 sec (total: 13.8 sec)
 [2023.09.09-00.45.34:248][ 65]AssetCheck: New page: Asset Save: Level_2
 [2023.09.09-00.45.34:248][ 65]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level_2.Level_2
+[2023.09.09-00.47.58:687][585]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.09.09-00.47.58:699][585]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=61668
+[2023.09.09-00.47.59:026][586]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{7c1d3701-57b7-442b-abd7-7977a4e05c80}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=49.48
+[2023.09.09-00.47.59:026][586]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.09.09-00.47.59:030][586]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.09.09-01.48.00:072][603]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.09.09-01.48.00:370][603]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=61668
+[2023.09.09-01.48.00:705][604]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{7c1d3701-57b7-442b-abd7-7977a4e05c80}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=23.15
+[2023.09.09-01.48.00:705][604]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.09.09-01.48.00:707][604]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.09.09-01.48.05:531][617]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.09.09-09.02.41:655][618]LogUdpMessaging: Display: Added local interface '192.168.56.1' to multicast group '230.0.0.1:6666'
+[2023.09.09-09.02.41:716][618]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.09.09-09.02.41:921][619]LogHttp: Warning: 0000045079DE7300: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2968331C-4AB2-8ACD-35FE-088E2B574515%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=53a57a194c2971b24fa623a5c090bf32%7C149b1308791144e18e2cc627806db8d7%7C7f2a0fb7-236e-46a4-9245-2ce1857e7004&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.09.09-09.02.41:921][619]LogHttp: Warning: 0000045079DE7300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.09.09-09.02.41:921][619]LogHttp: Warning: 0000045079DE7300: libcurl info message cache 0 (Too old connection (26091 seconds idle), disconnect it)
+[2023.09.09-09.02.41:921][619]LogHttp: Warning: 0000045079DE7300: libcurl info message cache 1 (Connection 1 seems to be dead)
+[2023.09.09-09.02.41:921][619]LogHttp: Warning: 0000045079DE7300: libcurl info message cache 2 (Closing connection 1)
+[2023.09.09-09.02.41:921][619]LogHttp: Warning: 0000045079DE7300: libcurl info message cache 3 (Hostname in DNS cache was stale, zapped)
+[2023.09.09-09.02.41:921][619]LogHttp: Warning: 0000045079DE7300: libcurl info message cache 4 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.09.09-09.02.41:921][619]LogHttp: Warning: 0000045079DE7300: libcurl info message cache 5 (Closing connection 2)
+[2023.09.09-09.02.41:921][619]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2968331C-4AB2-8ACD-35FE-088E2B574515%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=53a57a194c2971b24fa623a5c090bf32%7C149b1308791144e18e2cc627806db8d7%7C7f2a0fb7-236e-46a4-9245-2ce1857e7004&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.09.09-09.02.42:877][622]LogUdpMessaging: Display: Added local interface '192.168.56.1' to multicast group '230.0.0.1:6666'
+[2023.09.09-09.02.43:050][622]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.09.09-09.02.44:891][628]LogUdpMessaging: Display: Added local interface '192.168.56.1' to multicast group '230.0.0.1:6666'
+[2023.09.09-09.02.45:051][628]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.09.09-09.02.46:903][634]LogUdpMessaging: Display: Added local interface '192.168.56.1' to multicast group '230.0.0.1:6666'
+[2023.09.09-09.02.47:052][634]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.09.09-09.02.48:915][640]LogUdpMessaging: Display: Added local interface '192.168.56.1' to multicast group '230.0.0.1:6666'
+[2023.09.09-09.02.49:052][640]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.09.09-09.02.50:925][646]LogUdpMessaging: Display: Added local interface '192.168.56.1' to multicast group '230.0.0.1:6666'
+[2023.09.09-09.02.51:052][646]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.09.09-09.02.53:436][652]LogUdpMessaging: Display: Added local interface '192.168.56.1' to multicast group '230.0.0.1:6666'
+[2023.09.09-09.17.01:883][193]LogDerivedDataCache: C:/Users/Nikoleta/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:32.154 and deleted 53 files with total size 1 MiB. Scanned 16992 files in 16115 folders with total size 910 MiB.
+[2023.09.09-09.54.27:536][926]BlueprintLog: New page: Compile AI_Character_Controller
+[2023.09.09-09.54.27:623][926]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2023.09.09-09.54.28:620][934]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.09-09.54.28:851][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI_QLearning/AI_Character_Controller" FILE="../../../../../Dissertation Project/DissertationProject/Content/AI_QLearning/AI_Character_Controller.uasset" SILENT=true
+[2023.09.09-09.54.28:912][934]LogSavePackage: Moving output files for package: /Game/AI_QLearning/AI_Character_Controller
+[2023.09.09-09.54.28:912][934]LogSavePackage: Moving '../../../../../Dissertation Project/DissertationProject/Saved/AI_Character_Controller77C171F54858B9E9ED938C911F72E200.tmp' to '../../../../../Dissertation Project/DissertationProject/Content/AI_QLearning/AI_Character_Controller.uasset'
+[2023.09.09-09.54.28:936][934]LogFileHelpers: InternalPromptForCheckoutAndSave took 315 ms (total: 14.1 sec)
+[2023.09.09-09.54.28:946][934]AssetCheck: New page: Asset Save: AI_Character_Controller
+[2023.09.09-09.54.28:946][934]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/AI_QLearning/AI_Character_Controller.AI_Character_Controller
+[2023.09.09-10.17.01:788][447]LogDerivedDataCache: C:/Users/Nikoleta/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:32.059 and deleted 0 files with total size 0 MiB. Scanned 16939 files in 16065 folders with total size 908 MiB.
+[2023.09.09-11.17.01:789][976]LogDerivedDataCache: C:/Users/Nikoleta/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:32.060 and deleted 0 files with total size 0 MiB. Scanned 16939 files in 16065 folders with total size 908 MiB.
+[2023.09.09-11.38.49:189][360]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.09.09-13.28.51:286][360]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=61668
+[2023.09.09-13.28.51:866][361]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{7c1d3701-57b7-442b-abd7-7977a4e05c80}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=187.44
+[2023.09.09-13.28.51:866][361]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.09.09-13.28.51:871][361]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.09.09-14.07.03:728][234]LogDerivedDataCache: C:/Users/Nikoleta/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:32.063 and deleted 0 files with total size 0 MiB. Scanned 16939 files in 16065 folders with total size 908 MiB.
+[2023.09.09-15.07.03:708][ 30]LogDerivedDataCache: C:/Users/Nikoleta/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:32.042 and deleted 0 files with total size 0 MiB. Scanned 16939 files in 16065 folders with total size 908 MiB.
+[2023.09.09-16.07.03:704][826]LogDerivedDataCache: C:/Users/Nikoleta/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:32.038 and deleted 0 files with total size 0 MiB. Scanned 16939 files in 16065 folders with total size 908 MiB.
+[2023.09.09-17.07.03:686][621]LogDerivedDataCache: C:/Users/Nikoleta/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:32.020 and deleted 0 files with total size 0 MiB. Scanned 16939 files in 16065 folders with total size 908 MiB.
+[2023.09.09-17.57.57:201][775]LogViewport: Scene viewport resized to 1161x873, mode Windowed.
+[2023.09.09-17.58.01:084][786]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [4999ms] waiting for h/w. InstanceID=1
+[2023.09.09-17.58.01:358][786]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=61668
+[2023.09.09-18.55.39:367][787]LogAudioMixer: Warning: FMixerNullCallback: Large time delta between simulated audio clock and realtime [-3457880ms], ThreadID=61668
+[2023.09.09-18.55.39:865][787]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{7c1d3701-57b7-442b-abd7-7977a4e05c80}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=58.89
+[2023.09.09-18.55.39:866][787]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.09.09-18.55.39:935][787]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.09.09-18.55.44:724][801]LogViewport: Scene viewport resized to 1161x813, mode Windowed.
+[2023.09.09-19.04.41:674][590]LogDerivedDataCache: C:/Users/Nikoleta/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:32.106 and deleted 0 files with total size 0 MiB. Scanned 16939 files in 16065 folders with total size 908 MiB.
+[2023.09.09-20.04.42:553][386]LogDerivedDataCache: C:/Users/Nikoleta/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:32.985 and deleted 0 files with total size 0 MiB. Scanned 16939 files in 16065 folders with total size 908 MiB.
+[2023.09.09-21.04.41:683][107]LogDerivedDataCache: C:/Users/Nikoleta/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:32.115 and deleted 0 files with total size 0 MiB. Scanned 16939 files in 16065 folders with total size 908 MiB.
+[2023.09.09-21.55.58:771][333]LogViewport: Scene viewport resized to 1161x873, mode Windowed.
+[2023.09.09-21.56.02:832][344]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.09.09-21.56.03:105][344]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=61668
+[2023.09.09-21.59.08:803][345]LogAudioMixer: Warning: FMixerNullCallback: Large time delta between simulated audio clock and realtime [-185569ms], ThreadID=61668
+[2023.09.09-21.59.08:856][345]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{7c1d3701-57b7-442b-abd7-7977a4e05c80}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=79.04
+[2023.09.09-21.59.08:856][345]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.09.09-21.59.08:903][345]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.09.09-21.59.48:458][462]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.09.09-21.59.48:544][462]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=61668
+[2023.09.09-22.59.44:833][463]LogAudioMixer: Warning: FMixerNullCallback: Large time delta between simulated audio clock and realtime [-3595946ms], ThreadID=61668
+[2023.09.09-22.59.45:542][463]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{7c1d3701-57b7-442b-abd7-7977a4e05c80}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=41.89
+[2023.09.09-22.59.45:542][463]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.09.09-22.59.45:563][463]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.09.09-22.59.50:565][479]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.09.09-22.59.50:852][479]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=61668
+[2023.09.09-22.59.51:187][480]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{7c1d3701-57b7-442b-abd7-7977a4e05c80}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=22.31
+[2023.09.09-22.59.51:187][480]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.09.09-22.59.51:189][480]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.09.09-23.00.06:868][527]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.09.10-07.39.33:840][528]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [31172958ms] waiting for h/w. InstanceID=1
+[2023.09.10-07.39.34:525][528]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=61668
+[2023.09.10-07.39.35:730][529]LogUdpMessaging: Display: Added local interface '192.168.0.105' to multicast group '230.0.0.1:6666'
+[2023.09.10-07.39.35:752][529]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.09.10-07.39.35:755][529]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{7c1d3701-57b7-442b-abd7-7977a4e05c80}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=1093.20
+[2023.09.10-07.39.35:755][529]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.09.10-07.39.35:758][529]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.09.10-07.39.35:784][530]LogHttp: Warning: 000004509FF96400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2968331C-4AB2-8ACD-35FE-088E2B574515%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=53a57a194c2971b24fa623a5c090bf32%7C149b1308791144e18e2cc627806db8d7%7C7f2a0fb7-236e-46a4-9245-2ce1857e7004&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.09.10-07.39.35:784][530]LogHttp: Warning: 000004509FF96400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.09.10-07.39.35:784][530]LogHttp: Warning: 000004509FF96400: libcurl info message cache 0 (Too old connection (31194 seconds idle), disconnect it)
+[2023.09.10-07.39.35:784][530]LogHttp: Warning: 000004509FF96400: libcurl info message cache 1 (Connection 9 seems to be dead)
+[2023.09.10-07.39.35:784][530]LogHttp: Warning: 000004509FF96400: libcurl info message cache 2 (Closing connection 9)
+[2023.09.10-07.39.35:784][530]LogHttp: Warning: 000004509FF96400: libcurl info message cache 3 (Hostname in DNS cache was stale, zapped)
+[2023.09.10-07.39.35:784][530]LogHttp: Warning: 000004509FF96400: libcurl info message cache 4 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.09.10-07.39.35:784][530]LogHttp: Warning: 000004509FF96400: libcurl info message cache 5 (Closing connection 10)
+[2023.09.10-07.39.35:784][530]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2968331C-4AB2-8ACD-35FE-088E2B574515%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=53a57a194c2971b24fa623a5c090bf32%7C149b1308791144e18e2cc627806db8d7%7C7f2a0fb7-236e-46a4-9245-2ce1857e7004&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.09.10-07.39.37:153][532]LogUdpMessaging: Display: Added local interface '192.168.56.1' to multicast group '230.0.0.1:6666'
+[2023.09.10-07.39.37:199][532]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.09.10-07.39.39:172][538]LogUdpMessaging: Display: Added local interface '192.168.56.1' to multicast group '230.0.0.1:6666'
+[2023.09.10-07.39.39:264][538]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.09.10-07.39.41:085][544]LogUdpMessaging: Display: Added local interface '192.168.56.1' to multicast group '230.0.0.1:6666'
+[2023.09.10-07.39.41:263][544]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.09.10-07.39.43:098][550]LogUdpMessaging: Display: Added local interface '192.168.56.1' to multicast group '230.0.0.1:6666'
+[2023.09.10-07.39.43:263][550]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.09.10-07.39.44:300][553]LogViewport: Scene viewport resized to 1161x813, mode Windowed.
+[2023.09.10-07.39.45:214][555]LogUdpMessaging: Display: Added local interface '192.168.56.1' to multicast group '230.0.0.1:6666'
+[2023.09.10-07.39.45:339][555]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.09.10-07.39.47:223][561]LogUdpMessaging: Display: Added local interface '192.168.56.1' to multicast group '230.0.0.1:6666'
+[2023.09.10-07.39.47:340][561]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.09.10-07.39.49:435][567]LogUdpMessaging: Display: Added local interface '192.168.56.1' to multicast group '230.0.0.1:6666'
+[2023.09.10-07.47.06:141][ 43]LogDerivedDataCache: C:/Users/Nikoleta/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:32.690 and deleted 0 files with total size 0 MiB. Scanned 16939 files in 16065 folders with total size 908 MiB.
